@@ -14,7 +14,7 @@ val = int(input("Enter a number for search:"))
 k = 0
 for e in arr:
     if e == val:
-        print("Element found at index:" , k)
+        print("Element found at index:", k)
         break
     k += 1
 
